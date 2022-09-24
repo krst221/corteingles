@@ -1,0 +1,33 @@
+* {
+    font-family: Arial;
+    font-size: 16px;
+}
+.telf {
+    font-size: 22px;
+}
+span {
+    align-self: center;
+}
+a {
+    text-decoration: none;
+    align-self: center;
+    color: black;
+}
+.light:hover {
+    color: lightblue;
+}
+a:visited {
+    color: black;
+}
+.green {
+    color: #67b404;
+}
+.hover:hover {
+    cursor: pointer;
+}
+p {
+    font-size: 12px;
+}
+ul {
+    list-style-type: none;
+}

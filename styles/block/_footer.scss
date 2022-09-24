@@ -1,0 +1,33 @@
+@import './_body.scss';
+.footer {
+    width: 90%;
+    margin: 5%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    &__icono {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 24%;
+        span {
+            color: gray;
+            font-size: 12px;
+        }
+        img {
+            width: 70%;
+            margin-bottom: 5px;
+        }
+    }
+    &__rrss {
+        width: 12%;
+        h3 {
+            color: gray;
+            font-size: 15px;
+        }
+        &__imagenes {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
